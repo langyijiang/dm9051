@@ -1,0 +1,122 @@
+&spi0 {
+    pinctrl-names = "default",
+                    "spi0_miso",
+                    "spi0_mosi",
+                    "spi0_clk",
+                    "spi0_finger_cs",
+                    "spi0_finger_cs_off",
+                    "spi0_dm9051_cs",
+                    "spi0_dm9051_cs_off",
+                    "spi0_secret_cs",
+                    "spi0_secret_cs_off";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_miso>;
+    pinctrl-2 = <&spi0_mosi>;
+    pinctrl-3 = <&spi0_clk>;
+    pinctrl-4 = <&spi0_finger_cs>;
+    pinctrl-5 = <&spi0_finger_cs_off>;
+    pinctrl-6 = <&spi0_dm9051_cs>;
+    pinctrl-7 = <&spi0_dm9051_cs_off>;
+    pinctrl-8 = <&spi0_secret_cs>;
+    pinctrl-9 = <&spi0_secret_cs_off>;
+
+    /*
+	xr20m1172@0 {
+		compatible = "exar,xrm117x";
+		reg = <0>;
+		spi-max-frequency = <35000000>;
+		xr20m1172,eint = <4>;
+		pinctrl-names = "1172_rst0","1172_rst1","1172_en0","1172_en1";
+		pinctrl-0 = <&xr20m1172_gpio0>;
+		pinctrl-1 = <&xr20m1172_gpio1>;
+		pinctrl-2 = <&xr20m1172_gpio2>;
+		pinctrl-3 = <&xr20m1172_gpio3>;
+	};
+	*/
+
+    finger@0{
+        compatible = "mediatek,hct_finger";
+        reg = <0>;
+        spi-max-frequency = <6000000>;
+
+        pinctrl-names = "default",
+                        "finger_int_as_int",
+                        "finger_rst_clr",
+                        "finger_rst_set";
+        pinctrl-0 = <&finger_pins_default>;
+        pinctrl-1 = <&finger_int_as_int>;
+        pinctrl-2 = <&finger_rst_clr>;
+        pinctrl-3 = <&finger_rst_set>;
+    };
+
+    dm9051@1 {
+        compatible = "davicom,dm9051";
+        reg = <1>;
+        spi-max-frequency = <25000000>;/*<109000000>;*/
+
+        pinctrl-names = "default", "dm9051_rst0","dm9051_rst1","spi_switch_en0","spi_switch_en1";
+        pinctrl-0 = <&dm9051_default>;
+        pinctrl-1 = <&dm9051_rst0>;
+        pinctrl-2 = <&dm9051_rst1>;
+        pinctrl-3 = <&spi_switch_en0>;
+        pinctrl-4 = <&spi_switch_en1>;
+    };
+    
+    ln_encryption@2 {
+    	compatible = "sxtech,ln_encryption";
+        reg = <2>;
+        spi-max-frequency = <6000000>;/*<109000000>;*/
+
+        pinctrl-names = "default", "encryption_rst0","encryption_rst1","spi_switch_en0","spi_switch_en1";
+        pinctrl-0 = <&encryption_default>;
+        pinctrl-1 = <&encryption_rst0>;
+        pinctrl-2 = <&encryption_rst1>;
+        pinctrl-3 = <&spi_switch_en0>;
+        pinctrl-4 = <&spi_switch_en1>;       	
+    };
+    
+};
+
+&pio {
+    dm9051_default:dm9051_default{
+	};
+
+    dm9051_rst0: dm9051_rst0{
+	    pins_cmd_dat {
+			pins = <PINMUX_GPIO83__FUNC_GPIO83>;
+			slew-rate = <1>;
+			output-low;
+			input-schmitt-enable = <0>;
+		};
+
+	};
+
+    dm9051_rst1: dm9051_rst1{
+		pins_cmd_dat {
+			pins = <PINMUX_GPIO83__FUNC_GPIO83>;
+			slew-rate = <1>;
+			output-high;
+			input-schmitt-enable = <0>;
+        };
+
+    };
+    spi_switch_en0: spi_switch_en0{
+	    pins_cmd_dat {
+			pins = <PINMUX_GPIO21__FUNC_GPIO21>;
+			slew-rate = <1>;
+			output-low;
+			input-schmitt-enable = <0>;
+		};
+
+	};
+
+    spi_switch_en1: spi_switch_en1{
+        pins_cmd_dat {
+			pins = <PINMUX_GPIO21__FUNC_GPIO21>;
+			slew-rate = <1>;
+			output-high;
+			input-schmitt-enable = <0>;
+        };
+    };
+
+};

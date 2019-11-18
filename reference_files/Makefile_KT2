@@ -1,0 +1,3 @@
+
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/dm9051_ethernet
+obj-y := dm9051.o

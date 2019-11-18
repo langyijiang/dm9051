@@ -1,0 +1,347 @@
+Mar 15 16:27:56 raspberrypi kernel: [106230.957468] dm9051 Driver
+Mar 15 16:27:56 raspberrypi kernel: [106230.957487] dm9051 Driver, V4.9.28-V7+.2018.POLL-mt_dma-1.69.7_MutexLock_Pollphy (LOOP_XMIT)
+Mar 15 16:27:56 raspberrypi kernel: [106230.957495] dm9051, SPI (SPI_Master is FIFO mode..)
+Mar 15 16:27:56 raspberrypi kernel: [106230.957503] dm9051, RD (no-limitation)
+Mar 15 16:27:56 raspberrypi kernel: [106230.957515] dm9051, TX (no-limitation)
+Mar 15 16:27:56 raspberrypi kernel: [106230.957529] dm9r Driver, modalias in dm9051.h= dm9051
+Mar 15 16:27:56 raspberrypi kernel: [106230.957542] dm9r Driver, modalias in dm9r.c= dm9051
+Mar 15 16:27:56 raspberrypi kernel: [106230.960561] [ *dm9051  ] {_probe.s}
+Mar 15 16:27:56 raspberrypi kernel: [106230.963773] iow[5e 80].[Set.MBNDRY.BYTEBNDRY]
+Mar 15 16:27:56 raspberrypi kernel: [106230.964794] [ *dm9051  ] CONFIG SPI speed[= 31200000]
+Mar 15 16:27:56 raspberrypi kernel: [106230.964808] dm9rdreg.MOSI.p: [2a][..]
+Mar 15 16:27:56 raspberrypi kernel: [106230.965008] dm9rdreg.MISO.e: [..][51]
+Mar 15 16:27:56 raspberrypi kernel: [106230.965020] dm9rdreg.MOSI.p: [2b][..]
+Mar 15 16:27:56 raspberrypi kernel: [106230.965733] dm9rdreg.MISO.e: [..][90]
+Mar 15 16:27:56 raspberrypi kernel: [106230.965744] [ *dm9051  ] Device ID 9051
+Mar 15 16:27:56 raspberrypi kernel: [106230.965752] [dm9051.dump_eeprom():
+Mar 15 16:27:56 raspberrypi kernel: [106230.966016] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.966016]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.966024]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.966031]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.966283]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.966543]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.966809]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.967199]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.967210]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.967475]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.967729]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.967993]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.968240] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.968240]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.968245]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.968257]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.968512]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.968775]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.969033]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.969330]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.969340]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.969575]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.969802]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.970057]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.970297] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.970297]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.970302]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.970310]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.970545]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.970773]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.971002]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.971225]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.971231]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.971469]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.971725]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.972827]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.973049] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.973049]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.973054]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.973059]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.973277]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.973493]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.973703]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.973925]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.973932]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.974138]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.975526]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.975743]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.975953] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.975953]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.975957]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.975962]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.976179]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.976880]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.977099]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.977309]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.977314]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.977528]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.977750]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.977968]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.978188] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.978188]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.978192]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.978196]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.978419]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.978635]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.978858]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.979073]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.979078]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.979300]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.979515]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.979730]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.979959] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.979959]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.979965]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.979970]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.980222]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.980459]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.980695]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.980934]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.980940]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.981169]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.981397]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.981630]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.981844] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.981844]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.981848]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.981852]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.982068]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.982286]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.982498]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.982704]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.982708]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.982924]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.983133]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.983340]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.983344] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.983660] [dm9051.write_eeprom():  WORD[6]= 08 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.983994] [dm9051.write_eeprom():  WORD[7]= 80 41
+Mar 15 16:27:56 raspberrypi kernel: [106230.984009] [dm9051.dump_eeprom():
+Mar 15 16:27:56 raspberrypi kernel: [106230.984229] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.984229]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.984234]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.984239]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.986209]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.986425]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.986643]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.986856]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.986861]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.987074]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.987288]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.987502]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.987714] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.987714]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.987717]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.987722]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.987926]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.988140]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.988404]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.988612]  
+Mar 15 16:27:56 raspberrypi kernel: [106230.988617]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.988830]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.989045]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.989252]  00 00
+Mar 15 16:27:56 raspberrypi kernel: [106230.989256] 
+Mar 15 16:27:56 raspberrypi kernel: [106230.989260] [dm9051.ior_mac().a:
+Mar 15 16:27:56 raspberrypi kernel: [106230.989277]  06
+Mar 15 16:27:56 raspberrypi kernel: [106230.989292]  84
+Mar 15 16:27:56 raspberrypi kernel: [106230.989319]  19
+Mar 15 16:27:56 raspberrypi kernel: [106230.989339]  43
+Mar 15 16:27:56 raspberrypi kernel: [106230.989354]  ba
+Mar 15 16:27:56 raspberrypi kernel: [106230.989382]  23
+Mar 15 16:27:56 raspberrypi kernel: [106230.989389]  (eeprom2chip)
+Mar 15 16:27:56 raspberrypi kernel: [106230.989393] [dm9051.check valid ether addr.s:
+Mar 15 16:27:56 raspberrypi kernel: [106230.989397] [dm9051.check valid ether addr.e:
+Mar 15 16:27:56 raspberrypi kernel: [106230.989400] [dm9051.check register netdev.s:
+Mar 15 16:27:56 raspberrypi kernel: [106230.993514] [dm9051.check register netdev.e:
+Mar 15 16:27:56 raspberrypi kernel: [106230.993531] [dm9051.check INTschedule_isr.s:
+Mar 15 16:27:56 raspberrypi kernel: [106230.993535] [dm9051.check INTschedule_isr.e:
+Mar 15 16:27:56 raspberrypi kernel: [106230.993607] [dm9051.probe.ISR.MBNDRY_STS] data[= 0x80]
+Mar 15 16:27:56 raspberrypi kernel: [106230.993618] eth2: dm951 is bus_num 0, chip_select 0 {4.9.28-V7+.2018.POLL-mt_dma-1.69.7_MutexLock_Pollphy}
+Mar 15 16:27:56 raspberrypi kernel: [106230.993629] eth2: dm9051spi at isNO_IRQ 0 MAC: 06:84:19:43:ba:23 (eeprom2chip)
+Mar 15 16:27:56 raspberrypi kernel: [106230.993633] [*dm9.probe].e (4.9.28-V7+.2018.POLL-mt_dma-1.69.7_MutexLock_Pollphy)
+Mar 15 16:27:56 raspberrypi kernel: [106230.993637] [*dm9.probe].d DM9051_SPI: Mode (SPI_Master is FIFO mode..)
+Mar 15 16:27:56 raspberrypi kernel: [106230.993643] [*dm9.probe].d DM9051_RD: Burst size (no-limitation)
+Mar 15 16:27:56 raspberrypi kernel: [106230.993647] [*dm9.probe].d DM9051_TX: Burst size (no-limitation)
+Mar 15 16:27:56 raspberrypi kernel: [106231.145421] 
+Mar 15 16:27:56 raspberrypi kernel: [106231.145436] [dm951_open].s
+Mar 15 16:27:56 raspberrypi kernel: [106231.145446] iow[1F 00]
+Mar 15 16:27:56 raspberrypi kernel: [106231.149928] iow[5e 80].[Set.MBNDRY.BYTEBNDRY]
+Mar 15 16:27:56 raspberrypi kernel: [106231.151204] iowPHY[04 05e1]
+Mar 15 16:27:56 raspberrypi kernel: [106231.155351] iow[5e 80].[Set.MBNDRY.BYTEBNDRY]
+Mar 15 16:27:56 raspberrypi kernel: [106231.156494] dm9rdreg.MOSI.p: [3d][..]
+Mar 15 16:27:56 raspberrypi kernel: [106231.156539] dm9rdreg.MISO.e: [..][01]
+Mar 15 16:27:56 raspberrypi kernel: [106231.156545] iow[3D 08]
+Mar 15 16:27:56 raspberrypi kernel: [106231.156666] ior[REG39H][00] (b0: 0)(active high)
+Mar 15 16:27:56 raspberrypi kernel: [106231.156672] [  sum  ] 
+Mar 15 16:27:56 raspberrypi kernel: [106231.156676] [  add  ] skb_queue_head_init: Design, Not, Only is in _probe()
+Mar 15 16:27:56 raspberrypi kernel: [106231.156680] [  add  ] HERE, Test call skb_queue_head_init(), in _open()
+Mar 15 16:27:56 raspberrypi kernel: [106231.156683] [  sum  ] 
+Mar 15 16:27:56 raspberrypi kernel: [106231.156688] [  sum  ] netif_start_queue: ?
+Mar 15 16:27:56 raspberrypi kernel: [106231.156692] [  add  ] Yes, call netif_start_queue(), in _open()
+Mar 15 16:27:56 raspberrypi kernel: [106231.156724] [dm9.open].e (4.9.28-V7+.2018.POLL-mt_dma-1.69.7_MutexLock_Pollphy)
+Mar 15 16:27:56 raspberrypi kernel: [106231.156728] [dm9.open].d DM9051_SPI: Mode (SPI_Master is FIFO mode..)
+Mar 15 16:27:56 raspberrypi kernel: [106231.156732] [dm9.open].d DM9051_RD: Burst size (no-limitation)
+Mar 15 16:27:56 raspberrypi kernel: [106231.156736] [dm9.open].d DM9051_TX: Burst size (no-limitation)
+Mar 15 16:27:56 raspberrypi kernel: [106231.156739] 
+Mar 15 16:27:56 raspberrypi kernel: [106231.156770] [DM9051.Interrupt] Enter 0 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.156813] [DM9051.continue_poll] Link Status is: 0
+Mar 15 16:27:56 raspberrypi kernel: [106231.157756] iow[05 31]
+Mar 15 16:27:56 raspberrypi kernel: [106231.157830] [DM9051.Interrupt] Enter 1 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.158596] [DM9051.Interrupt] Enter 2 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.159323] [DM9051.Interrupt] Enter 3 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.160040] [DM9051.Interrupt] Enter 4 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.160837] [DM9051.Interrupt] Enter 5 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.161739] [DM9051.Interrupt] Enter 6 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.162502] [DM9051.Interrupt] Enter 7 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.163291] [DM9051.Interrupt] Enter 8 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.165731] [DM9051.Interrupt] Enter 9 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.167488] [DM9051.Interrupt] Enter 10 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.169300] [DM9051.Interrupt] Enter 11 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.169565] IPv6: ADDRCONF(NETDEV_UP): eth2: link is not ready
+Mar 15 16:27:56 raspberrypi kernel: [106231.176749] iow[05 31]
+Mar 15 16:27:56 raspberrypi kernel: [106231.177251] [DM9051.Interrupt] Enter 12 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.182289] [DM9051.Interrupt] Enter 13 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.186189] [DM9051.Interrupt] Enter 14 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.188847] [DM9051.Interrupt] Enter 15 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.190880] [DM9051.Interrupt] Enter 16 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.192608] [DM9051.Interrupt] Enter 17 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.194791] [DM9051.Interrupt] Enter 18 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.196409] [DM9051.Interrupt] Enter 19 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.199641] [DM9051.Interrupt] Enter 20 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.201577] iow[05 31]
+Mar 15 16:27:56 raspberrypi kernel: [106231.201622] [DM9051.Interrupt] Enter 21 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.203211] [DM9051.Interrupt] Enter 22 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.206086] [DM9051.Interrupt] Enter 23 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.208270] [DM9051.Interrupt] Enter 24 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.209961] [DM9051.Interrupt] Enter 25 (checking) ...
+Mar 15 16:27:56 raspberrypi kernel: [106231.270350] iow[05 31]
+Mar 15 16:27:58 raspberrypi kernel: [106232.769665] [DM9051.continue_poll] Link Status is: 1
+Mar 15 16:27:58 raspberrypi kernel: [106232.769751] IPv6: ADDRCONF(NETDEV_CHANGE): eth2: link becomes ready
+Mar 15 16:27:58 raspberrypi kernel: [106232.785358] iow[05 31]
+Mar 15 16:27:58 raspberrypi kernel: [106232.814385] 
+Mar 15 16:27:58 raspberrypi kernel: [106232.814409] [  0] dm9( txDone 90) nTx 1 ( eq 1 err 0 )
+Mar 15 16:27:59 raspberrypi kernel: [106234.065344] iow[05 31]
+Mar 15 16:28:03 raspberrypi kernel: [106238.314020] iow[05 31]
+Mar 15 16:28:05 raspberrypi kernel: [106240.220976] 
+Mar 15 16:28:05 raspberrypi kernel: [106240.221002] [ 25] dm9( txDone 236) nTx 1 ( eq 27 err 0 )
+Mar 15 16:28:44 raspberrypi kernel: [106278.852116] 
+Mar 15 16:28:44 raspberrypi kernel: [106278.852145] [ 50] dm9( txDone 1514 1514...) nTx 67 ( eq 370 err 0 )
+Mar 15 16:28:46 raspberrypi kernel: [106281.444396] 
+Mar 15 16:28:46 raspberrypi kernel: [106281.444429] [ 75] dm9( txDone 1514 1514...) nTx 144 ( eq 3297 err 0 )
+Mar 15 16:28:50 raspberrypi kernel: [106284.642714] 
+Mar 15 16:28:50 raspberrypi kernel: [106284.642748] [100] dm9( txDone 1514 1514...) nTx 144 ( eq 6877 err 0 )
+Mar 15 16:28:53 raspberrypi kernel: [106287.867069] 
+Mar 15 16:28:53 raspberrypi kernel: [106287.867101] [125] dm9( txDone 1514 1514...) nTx 144 ( eq 10471 err 0 )
+Mar 15 16:29:06 raspberrypi kernel: [106300.679980] 
+Mar 15 16:29:06 raspberrypi kernel: [106300.680007] [150] dm9( txDone 1514 1514...) nTx 59 ( eq 11487 err 0 )
+Mar 15 16:29:08 raspberrypi kernel: [106303.019789] 
+Mar 15 16:29:08 raspberrypi kernel: [106303.019820] [175] dm9( txDone 1514 1514...) nTx 144 ( eq 14159 err 0 )
+Mar 15 16:29:11 raspberrypi kernel: [106306.215869] 
+Mar 15 16:29:11 raspberrypi kernel: [106306.215900] [200] dm9( txDone 1514 1514...) nTx 144 ( eq 17725 err 0 )
+Mar 15 16:29:14 raspberrypi kernel: [106309.361920] 
+Mar 15 16:29:14 raspberrypi kernel: [106309.361954] [225] dm9( txDone 1514 1514...) nTx 144 ( eq 21315 err 0 )
+Mar 15 16:29:40 raspberrypi kernel: [106334.687961] 
+Mar 15 16:29:40 raspberrypi kernel: [106334.687986] [250] dm9( txDone 54 54...) nTx 20 ( eq 22803 err 0 )
+Mar 15 16:29:40 raspberrypi kernel: [106334.687990] 
+Mar 15 16:29:40 raspberrypi kernel: [106334.687990] dm9.Temp-Stop-Tx-Disp-Mode
+Mar 15 16:29:40 raspberrypi kernel: [106334.687990] 
+Mar 15 16:29:40 raspberrypi kernel: [106334.687994] 
+Mar 15 16:29:40 raspberrypi kernel: [106334.765346] 
+Mar 15 16:29:40 raspberrypi kernel: [106334.765377] (252) dg [rwr,mdr][ 294d 1777] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:40 raspberrypi kernel: [106334.893130]          --after dm9.rxDone-xmit- [ 287f 287f] rxb 00 EQU  wp= rdp
+Mar 15 16:29:40 raspberrypi kernel: [106335.123584] 
+Mar 15 16:29:40 raspberrypi kernel: [106335.123610] (254) dg [rwr,mdr][ 4ed8 2a87] rxb 01 NEQ (RO 69.5% 2451=9297)
+Mar 15 16:29:40 raspberrypi kernel: [106335.259886]          --after dm9.rxDone-xmit- [ 3ec3 3ec3] rxb 00 EQU  wp= rdp
+Mar 15 16:29:40 raspberrypi kernel: [106335.458614] 
+Mar 15 16:29:40 raspberrypi kernel: [106335.458641] (255) dg [rwr,mdr][ 43f1 321b] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:40 raspberrypi kernel: [106335.471788]          --after dm9.rxDone-xmit- [ 27f3 27f3] rxb 00 EQU  wp= rdp
+Mar 15 16:29:41 raspberrypi kernel: [106335.765134] 
+Mar 15 16:29:41 raspberrypi kernel: [106335.765162] (257) dg [rwr,mdr][ 3a2a 1c70] rxb 01 NEQ (RO 57.0% 1dba=7610)
+Mar 15 16:29:41 raspberrypi kernel: [106335.906912]          --after dm9.rxDone-xmit- [ 2d28 2d28] rxb 00 EQU  wp= rdp
+Mar 15 16:29:41 raspberrypi kernel: [106336.120871] 
+Mar 15 16:29:41 raspberrypi kernel: [106336.120898] (258) dg [rwr,mdr][ 4704 352e] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:41 raspberrypi kernel: [106336.143475]          --after dm9.rxDone-xmit- [ 14c0 14c0] rxb 00 EQU  wp= rdp
+Mar 15 16:29:41 raspberrypi kernel: [106336.454703] 
+Mar 15 16:29:41 raspberrypi kernel: [106336.454730] (260) dg [rwr,mdr][ 3d34 1f7a] rxb 01 NEQ (RO 57.0% 1dba=7610)
+Mar 15 16:29:41 raspberrypi kernel: [106336.610600]          --after dm9.rxDone-xmit- [ 19ec 19ec] rxb 00 EQU  wp= rdp
+Mar 15 16:29:42 raspberrypi kernel: [106336.821612] 
+Mar 15 16:29:42 raspberrypi kernel: [106336.821640] (261) dg [rwr,mdr][ 4ab6 2cfc] rxb 01 NEQ (RO 57.0% 1dba=7610)
+Mar 15 16:29:42 raspberrypi kernel: [106336.850907]          --after dm9.rxDone-xmit- [ 36b4 36b4] rxb 00 EQU  wp= rdp
+Mar 15 16:29:42 raspberrypi kernel: [106337.201529] 
+Mar 15 16:29:42 raspberrypi kernel: [106337.201555] (263) dg [rwr,mdr][ 3e38 1748] rxb 01 NEQ (RO 74.5% 26f0=9968)
+Mar 15 16:29:42 raspberrypi kernel: [106337.367057]          --after dm9.rxDone-xmit- [ 3ad0 3ad0] rxb 00 EQU  wp= rdp
+Mar 15 16:29:42 raspberrypi kernel: [106337.558079] 
+Mar 15 16:29:42 raspberrypi kernel: [106337.558106] (264) dg [rwr,mdr][ 4e0d 2a61] rxb 01 NEQ (RO 68.5% 23ac=9132)
+Mar 15 16:29:42 raspberrypi kernel: [106337.590861]          --after dm9.rxDone-xmit- [ 2381 2381] rxb 00 EQU  wp= rdp
+Mar 15 16:29:43 raspberrypi kernel: [106337.956758] 
+Mar 15 16:29:43 raspberrypi kernel: [106337.956786] (266) dg [rwr,mdr][ 26c7 14f1] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:43 raspberrypi kernel: [106338.134356]          --after dm9.rxDone-xmit- [ 2869 2869] rxb 00 EQU  wp= rdp
+Mar 15 16:29:43 raspberrypi kernel: [106338.334422] 
+Mar 15 16:29:43 raspberrypi kernel: [106338.334448] (267) dg [rwr,mdr][ 5117 335d] rxb 01 NEQ (RO 57.0% 1dba=7610)
+Mar 15 16:29:43 raspberrypi kernel: [106338.372665]          --after dm9.rxDone-xmit- [ 1001 1001] rxb 00 EQU  wp= rdp
+Mar 15 16:29:44 raspberrypi kernel: [106338.729122] 
+Mar 15 16:29:44 raspberrypi kernel: [106338.729152] (269) dg [rwr,mdr][ 2a15 124d] rxb 01 NEQ (RO 45.5% 17c8=6088)
+Mar 15 16:29:44 raspberrypi kernel: [106338.907813]          --after dm9.rxDone-xmit- [ 16c5 16c5] rxb 00 EQU  wp= rdp
+Mar 15 16:29:44 raspberrypi kernel: [106339.088142] 
+Mar 15 16:29:44 raspberrypi kernel: [106339.088170] (270) dg [rwr,mdr][ 37ff 1453] rxb 01 NEQ (RO 68.5% 23ac=9132)
+Mar 15 16:29:44 raspberrypi kernel: [106339.130701]          --after dm9.rxDone-xmit- [ 3366 3366] rxb 00 EQU  wp= rdp
+Mar 15 16:29:44 raspberrypi kernel: [106339.450961] 
+Mar 15 16:29:44 raspberrypi kernel: [106339.450989] (272) dg [rwr,mdr][ 46bd 2311] rxb 01 NEQ (RO 68.5% 23ac=9132)
+Mar 15 16:29:45 raspberrypi kernel: [106339.645816]          --after dm9.rxDone-xmit- [ 396d 396d] rxb 00 EQU  wp= rdp
+Mar 15 16:29:45 raspberrypi kernel: [106339.828765] 
+Mar 15 16:29:45 raspberrypi kernel: [106339.828791] (273) dg [rwr,mdr][ 1f33  d5d] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:45 raspberrypi kernel: [106339.900165]          --after dm9.rxDone-xmit- [ 21d1 21d1] rxb 00 EQU  wp= rdp
+Mar 15 16:29:45 raspberrypi kernel: [106340.199190] 
+Mar 15 16:29:45 raspberrypi kernel: [106340.199218] (275) dg [rwr,mdr][ 4580 2104] rxb 01 NEQ (RO 70.0% 247c=9340)
+Mar 15 16:29:45 raspberrypi kernel: [106340.399323]          --after dm9.rxDone-xmit- [ 270c 270c] rxb 00 EQU  wp= rdp
+Mar 15 16:29:45 raspberrypi kernel: [106340.579144] 
+Mar 15 16:29:45 raspberrypi kernel: [106340.579170] (276) dg [rwr,mdr][ 57a0 33f4] rxb 01 NEQ (RO 68.5% 23ac=9132)
+Mar 15 16:29:46 raspberrypi kernel: [106340.683773]          --after dm9.rxDone-xmit- [ 0f2c 0f2c] rxb 00 EQU  wp= rdp
+Mar 15 16:29:46 raspberrypi kernel: [106340.975281] 
+Mar 15 16:29:46 raspberrypi kernel: [106340.975308] (278) dg [rwr,mdr][ 4d48 299c] rxb 01 NEQ (RO 68.5% 23ac=9132)
+Mar 15 16:29:46 raspberrypi kernel: [106341.170394]          --after dm9.rxDone-xmit- [ 12a0 12a0] rxb 00 EQU  wp= rdp
+Mar 15 16:29:46 raspberrypi kernel: [106341.347864] 
+Mar 15 16:29:46 raspberrypi kernel: [106341.347902] (279) dg [rwr,mdr][ 42f0 1f44] rxb 01 NEQ (RO 68.5% 23ac=9132)
+Mar 15 16:29:46 raspberrypi kernel: [106341.426827]          --after dm9.rxDone-xmit- [ 2ec0 2ec0] rxb 00 EQU  wp= rdp
+Mar 15 16:29:47 raspberrypi kernel: [106341.744627] 
+Mar 15 16:29:47 raspberrypi kernel: [106341.744653] (281) dg [rwr,mdr][ 3390  f3e] rxb 01 NEQ (RO 69.5% 2452=9298)
+Mar 15 16:29:47 raspberrypi kernel: [106341.937856]          --after dm9.rxDone-xmit- [ 330e 330e] rxb 00 EQU  wp= rdp
+Mar 15 16:29:47 raspberrypi kernel: [106342.105834] 
+Mar 15 16:29:47 raspberrypi kernel: [106342.105861] (282) dg [rwr,mdr][ 4560 338a] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:47 raspberrypi kernel: [106342.200156]          --after dm9.rxDone-xmit- [ 1aa6 1aa6] rxb 00 EQU  wp= rdp
+Mar 15 16:29:47 raspberrypi kernel: [106342.468731] 
+Mar 15 16:29:47 raspberrypi kernel: [106342.468758] (284) dg [rwr,mdr][ 3b55 293b] rxb 01 NEQ (RO 34.5% 121a=4634)
+Mar 15 16:29:48 raspberrypi kernel: [106342.663407]          --after dm9.rxDone-xmit- [ 1eab 1eab] rxb 00 EQU  wp= rdp
+Mar 15 16:29:48 raspberrypi kernel: [106342.825813] 
+Mar 15 16:29:48 raspberrypi kernel: [106342.825841] (285) dg [rwr,mdr][ 30fd 1935] rxb 01 NEQ (RO 45.5% 17c8=6088)
+Mar 15 16:29:48 raspberrypi kernel: [106342.916477]          --after dm9.rxDone-xmit- [ 3b53 3b53] rxb 00 EQU  wp= rdp
+Mar 15 16:29:48 raspberrypi kernel: [106343.175437] 
+Mar 15 16:29:48 raspberrypi kernel: [106343.175463] (287) dg [rwr,mdr][ 3dfb 2c25] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:48 raspberrypi kernel: [106343.364028]          --after dm9.rxDone-xmit- [ 3f0b 3f0b] rxb 00 EQU  wp= rdp
+Mar 15 16:29:48 raspberrypi kernel: [106343.521599] 
+Mar 15 16:29:48 raspberrypi kernel: [106343.521626] (288) dg [rwr,mdr][ 346f 10c3] rxb 01 NEQ (RO 68.5% 23ac=9132)
+Mar 15 16:29:49 raspberrypi kernel: [106343.645911]          --after dm9.rxDone-xmit- [ 276f 276f] rxb 00 EQU  wp= rdp
+Mar 15 16:29:49 raspberrypi kernel: [106343.897969] 
+Mar 15 16:29:49 raspberrypi kernel: [106343.897995] (290) dg [rwr,mdr][ 40e5 2f0f] rxb 01 NEQ (RO 34.0% 11d6=4566)
+Mar 15 16:29:49 raspberrypi kernel: [106344.099746]          --after dm9.rxDone-xmit- [ 2c97 2c97] rxb 00 EQU  wp= rdp
+Mar 15 16:32:51 raspberrypi kernel: [106525.684632] 
+Mar 15 16:34:29 raspberrypi kernel: [106623.984530] 
+Mar 15 16:34:29 raspberrypi kernel: [106623.984556] rWrRd.1982/3c41(RO 33.0%) 
+Mar 15 16:34:29 raspberrypi kernel: [106623.984564] fifo_rst(.s 76 f5 90 84 08 00
+Mar 15 16:34:29 raspberrypi kernel: [106623.984621] rWrRd.1982/3c41(RO 33.0%) 
+Mar 15 16:34:29 raspberrypi kernel: [106623.984629] fifo_should 06 84 19 43 ba 23
+Mar 15 16:34:29 raspberrypi kernel: [106623.984635] ( ERO 1 ) 0 ++ 
+Mar 15 16:34:29 raspberrypi kernel: [106623.984643] dmfifo_reset( 11 ) Len 1470 1
+Mar 15 16:34:29 raspberrypi kernel: [106623.987700] iow[5e 80].[Set.MBNDRY.BYTEBNDRY]
+Mar 15 16:34:29 raspberrypi kernel: [106623.988809] rWrRd.c00/c00(RO 0.0%) 
+Mar 15 16:34:29 raspberrypi kernel: [106623.988817] fifo_rst(.e 76 f5 90 84 08 00
+Mar 15 16:34:29 raspberrypi kernel: [106623.988821] ERO.Rxb&LargEr
+Mar 15 16:34:29 raspberrypi kernel: [106623.988826] 1 .0 0
+Mar 15 16:34:29 raspberrypi kernel: [106623.988830] 
+Mar 15 16:34:34 raspberrypi kernel: [106628.887934]  3. dm9( .1974/189e no-rx tx fnd - RO 1.5% rxb00)
+Mar 15 16:34:34 raspberrypi kernel: [106629.076017] 12. dm9( .1a38/1772 no-rx tx fnd - RO 5.0% rxb00)
+Mar 15 16:34:35 raspberrypi kernel: [106629.908737] 
+Mar 15 16:34:36 raspberrypi kernel: [106631.499943]  7. dm9( .3d00/3ad7 no-rx tx fnd - RO 4.0% rxb00)
+Mar 15 16:34:50 raspberrypi kernel: [106645.464484]  9. dm9( .24d8/224f no-rx tx fnd - RO 4.5% rxb00)
+Mar 15 16:34:51 raspberrypi kernel: [106646.337227]  1. dm9( .28b8/25e6 no-rx tx fnd - RO 5.0% rxb00)
+Mar 15 16:34:54 raspberrypi kernel: [106648.856314] 12. dm9( .2e40/2b5d no-rx tx fnd - RO 5.5% rxb00)
+Mar 15 16:34:55 raspberrypi kernel: [106650.132104] 
+Mar 15 16:34:56 raspberrypi kernel: [106650.667283]  9. dm9( .372c/36cb no-rx tx fnd - RO 0.5% rxb00)
